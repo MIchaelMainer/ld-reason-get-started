@@ -1,0 +1,24 @@
+(lang dune 2.8)
+(name hello-reason)
+(library
+ (name hello-reason)
+ (kind normal)
+ (orig_src_dir /Users/Michael/repos/ld-reason-get-started/end/lib)
+ (archives (byte lib.cma) (native lib.cmxa))
+ (plugins (byte lib.cma) (native lib.cmxs))
+ (native_archives lib.a)
+ (requires pastel.lib)
+ (main_module_name Lib)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Lib)
+   (modules
+    ((name Util) (obj_name lib__Util) (visibility public) (impl) (intf)))
+   (alias_module
+    (name Lib)
+    (obj_name lib)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

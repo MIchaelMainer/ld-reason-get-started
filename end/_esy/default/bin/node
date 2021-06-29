@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/Users/Michael/repos/ld-reason-get-started/end/_esy/default/bin"
+exec "/Users/Michael/.nvm/versions/node/v12.14.1/bin/node" -r "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/pnp.js" "$@"
+              

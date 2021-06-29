@@ -1,0 +1,14 @@
+EXCLUDE_QUERY_DIR
+B /Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml
+B /Users/Michael/.esy/3________________________________________________________________/i/opam__s__re-opam__c__1.9.0-88e50c41/lib/re
+B /Users/Michael/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib/seq
+B /Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__pastel-0.3.0-1d3f2c15/lib/pastel/internal
+B /Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__pastel-0.3.0-1d3f2c15/lib/pastel/lib
+B /Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/default/lib/.lib.objs/byte
+S /Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml
+S /Users/Michael/.esy/3________________________________________________________________/i/opam__s__re-opam__c__1.9.0-88e50c41/lib/re
+S /Users/Michael/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib/seq
+S /Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__pastel-0.3.0-1d3f2c15/lib/pastel/internal
+S /Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__pastel-0.3.0-1d3f2c15/lib/pastel/lib
+S .
+FLG -open Lib -w -40 -w +26

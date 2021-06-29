@@ -1,0 +1,213 @@
+# dune build --promote-install-files --root . --only-package hello-reason
+# OCAMLPARAM: unset
+# Workspace root: /Users/Michael/repos/ld-reason-get-started/end
+$ /usr/local/bin/nproc > /tmp/dunea072a0.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/Michael/.esy/3________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/bin/ocamlfind printconf path > /tmp/dunefcb52a.output
+$ /Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlc.opt -config > /tmp/dune3ffae3.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/default"
+#        ; "MANPATH" :
+#            "/Users/Michael/repos/ld-reason-get-started/end//Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/Michael/repos/ld-reason-get-started/end//Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/Michael/repos/ld-reason-get-started/end//Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/toplevel"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-1e4e6f59/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__dune-opam__c__2.7.0-8ea9284b/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__merlin-opam__c__3.3.6-7d2d2c4f/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__odoc-opam__c__1.5.1-13aecba7/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__console-0.1.0-8a1ec67d/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__pastel-0.3.0-1d3f2c15/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__rely-3.2.1-cebc5ecc/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/refmterr-3.3.2-abef917c/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__fix-opam__c__20200131-1695faf8/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20200624-f71ec011/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-d932a530/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-bfd476bd/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__result-opam__c__1.5-fdb0c42c/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-a4beae55/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__astring-opam__c__0.8.5-d663cda5/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c46658de/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-09dc5ace/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-9614a18c/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-e0875d50/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__re-opam__c__1.9.0-88e50c41/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__junit-opam__c__2.0.2-3dcae114/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__cli-0.0.1-alpha-595193ad/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/reason_native__s__file_context_printer-0.0.3-3971c3aa/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-834f82db/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20200624-73699dcd/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200624-f4e9d9b2/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-2c532a9b/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-d79a8b59/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__topkg-opam__c__1.0.2-6dbe74c6/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-448955b6/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-83f7b88a/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__atd-opam__c__2.2.1-1d5da80d/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-b2c8de4e/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-a7069d50/lib"
+#      ; External
+#          "/Users/Michael/.esy/3________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.10.0"
+#      ; standard_library_default =
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#      ; standard_library =
+#          "/Users/Michael/.esy/3________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.3.0"
+#      ; target = "x86_64-apple-darwin20.3.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X027"
+#      ; cmi_magic_number = "Caml1999I027"
+#      ; cmo_magic_number = "Caml1999O027"
+#      ; cma_magic_number = "Caml1999A027"
+#      ; cmx_magic_number = "Caml1999Y027"
+#      ; cmxa_magic_number = "Caml1999Z027"
+#      ; ast_impl_magic_number = "Caml1999M027"
+#      ; ast_intf_magic_number = "Caml1999N027"
+#      ; cmxs_magic_number = "Caml1999D027"
+#      ; cmt_magic_number = "Caml1999T027"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }

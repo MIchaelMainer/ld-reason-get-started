@@ -1,0 +1,25 @@
+lib: [
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/META"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/Util.re"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/Util.rei"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/dune-package"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.a"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cma"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cmi"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cmt"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cmx"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cmxa"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.cmxs"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib.ml"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib__Util.cmi"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib__Util.cmt"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib__Util.cmti"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/lib__Util.cmx"
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/lib/hello-reason/opam"
+]
+bin: [
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/bin/Hello"
+]
+doc: [
+  "/Users/Michael/repos/ld-reason-get-started/end/_esy/default/store/b/hello_reason-039e77a9/install/default/doc/hello-reason/README.md"
+]
