@@ -31,6 +31,7 @@ First, let’s install **esy**, the Reason package manager.
 Next let’s get a copy of the ld-reason-get-started which contains copies of hello-reason repo:
 
 `git clone https://github.com/MIchaelMainer/ld-reason-get-started.git`
+
 `cd ld-reason-get-started/begin`
 
 We’ll now need to install the dependencies in the project.
@@ -48,6 +49,7 @@ At this point, we can successfully run the Reason Hello World sample. Now let’
 `esy` doesn’t have a native HTTP client package for Reason so we will need to use one of the OCaml HTTP clients. For our purposes, we’ll use the [ocaml-cohttp](https://github.com/mirage/ocaml-cohttp) client. Let’s install the cohttp client into our project as well as the SSL library.
 
 `esy add @opam/cohttp-lwt-unix`
+
 `esy add @opam/lwt_ssl`
 
 Next, we need to add the libraries to the Hello dune file located at `./bin/dune`. Make the following change to the libraries stanza:
