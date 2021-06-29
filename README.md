@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this tutorial to get you started using the LaunchDarkly REST APIs from a ReasonML project.
+The goal of this tutorial to get you started using the LaunchDarkly REST APIs from a native ReasonML project.
 
 The [Launch Darkly REST API](https://apidocs.launchdarkly.com/reference) is used for developing custom integrations with LaunchDarkly and for data export. [ReasonML](https://reasonml.github.io/docs/en/what-and-why) is a new syntax for the [OCaml](https://ocaml.org/) programming language.  Reason is a functional language that uses the strong OCaml type system to provide maintainable and performant code.
 
@@ -30,10 +30,8 @@ First, let’s install **esy**, the Reason package manager.
 
 Next let’s get a copy of the ld-reason-get-started which contains copies of hello-reason repo:
 
-```cli
-git clone https://github.com/MIchaelMainer/ld-reason-get-started.git
-cd ld-reason-get-started/begin
-```
+`git clone https://github.com/MIchaelMainer/ld-reason-get-started.git`
+`cd ld-reason-get-started/begin`
 
 We’ll now need to install the dependencies in the project.
 
@@ -47,16 +45,16 @@ At this point, we can successfully run the Reason Hello World sample. Now let’
 
 ## Integrate with LaunchDarkly
 
-esy doesn’t have a native HTTP client package for Reason so we will need to use one of the OCaml HTTP clients. For our purposes, we’ll use the [ocaml-cohttp](https://github.com/mirage/ocaml-cohttp) client. Let’s install the cohttp client into our project as well as the SSL library.
+`esy` doesn’t have a native HTTP client package for Reason so we will need to use one of the OCaml HTTP clients. For our purposes, we’ll use the [ocaml-cohttp](https://github.com/mirage/ocaml-cohttp) client. Let’s install the cohttp client into our project as well as the SSL library.
 
-```cli
-esy add @opam/cohttp-lwt-unix
-esy add @opam/lwt_ssl
-```
+`esy add @opam/cohttp-lwt-unix`
+`esy add @opam/lwt_ssl`
 
 Next, we need to add the libraries to the Hello dune file located at `./bin/dune`. Make the following change to the libraries stanza:
 
-`(libraries console.lib lib cohttp-lwt-unix lwt)`
+```
+(libraries console.lib lib cohttp-lwt-unix lwt)
+```
 
 Now we are ready to integrate with LaunchDarkly. Let’s remove the content in the `./bin/Hello.re` file. All of the following code will be added to Hello.re. Next, let’s add the referenced HTTP client packages to Hello.re:
 
@@ -113,4 +111,4 @@ Now we are ready to run the program.
 
 `esy x Hello`
 
-You should see JSON data with your default project flag information printed to the console. Congratulations, you’ve completed your first native Reason integration with the LaunchDarkly REST API!
+You should see JSON data with your default project flag information printed to the console. Congratulations, you’ve completed your first native Reason integration with the LaunchDarkly REST API! Compare the contents of the `/begin` and `/end` directories if you encountered any issues. The `/end` contains all of the code changes in case you needed it.
