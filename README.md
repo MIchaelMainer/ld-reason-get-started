@@ -1,5 +1,14 @@
 # Getting started with the LaunchDarkly REST API and ReasonML
 
+<!-- Metadata
+This code was tested on a Mac. It has not been tested on Linux or Windows.
+
+Opportunities:
+- Add a sister document demonstrating an integration with ReScript and LD JavaScript library.
+- Add an action based on the results of the first call.
+- Provide scenarios descriptions around when someone may want to use this content.
+ -->
+
 ## Overview
 
 The goal of this tutorial to get you started using the LaunchDarkly REST APIs from a native ReasonML project.
@@ -113,4 +122,4 @@ Now we are ready to run the program.
 
 `esy x Hello`
 
-You should see JSON data with your default project flag information printed to the console. Congratulations, you’ve completed your first native Reason integration with the LaunchDarkly REST API! Compare the contents of the `/begin` and `/end` directories if you encountered any issues. The `/end` contains all of the code changes in case you needed it.
+You should see JSON data with your default project flag information printed to the console. Congratulations, you’ve completed your first native Reason integration with the LaunchDarkly REST API! Compare the contents of the `/begin` and `/end` directories if you encountered any issues. The `/end` directory contains all of the code changes in case you needed it.
