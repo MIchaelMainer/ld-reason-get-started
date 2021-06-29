@@ -37,7 +37,7 @@ First, let’s install **esy**, the Reason package manager.
 
 `npm install -g esy`
 
-Next let’s get a copy of the ld-reason-get-started which contains copies of hello-reason repo:
+Next let’s get a copy of the ld-reason-get-started repo which contains copies of hello-reason repo. The `/begin` directory will be our working directory.
 
 `git clone https://github.com/MIchaelMainer/ld-reason-get-started.git`
 
