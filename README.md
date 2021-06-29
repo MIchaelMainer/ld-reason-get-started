@@ -7,6 +7,7 @@ Opportunities:
 - Add a sister document demonstrating an integration with ReScript and LD JavaScript library.
 - Add an action based on the results of the first call.
 - Provide scenarios descriptions around when someone may want to use this content.
+- Add tests to help maintain the freshness of this sample.
  -->
 
 ## Overview
